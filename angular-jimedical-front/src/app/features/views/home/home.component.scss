@@ -1,0 +1,12 @@
+.bullet-points {
+    list-style-type: disc; /* Tipo de viñeta */
+    padding-left: 20px; /* Espacio para la viñeta */
+  }
+  
+  .bullet-points li {
+    margin-bottom: 10px; /* Espacio entre párrafos */
+  }
+  
+  .bullet-points li p {
+    margin: 0; /* Eliminar el margen predeterminado del párrafo */
+  }
