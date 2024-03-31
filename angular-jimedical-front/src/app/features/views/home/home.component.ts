@@ -8,7 +8,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 export class HomeComponent {
 
 
-  @ViewChild('buttonNextCarousel', {static: true}) buttonCarousel!:ElementRef;
+  @ViewChild('buttonNextCarousel', { static: true }) buttonCarousel!: ElementRef;
   intervalId: any;
 
   ngOnInit() {
@@ -25,27 +25,28 @@ export class HomeComponent {
   }
 
 
-  texttUs:string = 'Brindamos soluciones en soporte técnico, servicios de ingeniería biomédica y apoyo para los equipos médicos de diferentes instituciones. Con una amplia experiencia en el sector público y privado, generamos alternativas al sector salud en el suministro de equipos e insumos de excelente calidad y servicio. Ofreciendo beneficios que propicien el cuidado y mejoramiento de la salud';
+  texttUs: string = 'Brindamos soluciones en soporte técnico, servicios de ingeniería biomédica y apoyo para los equipos médicos de diferentes instituciones. Con una amplia experiencia en el sector público y privado, generamos alternativas al sector salud en el suministro de equipos e insumos de excelente calidad y servicio. Ofreciendo beneficios que propicien el cuidado y mejoramiento de la salud.';
+
 
   homeInfo = [
     {
-      title:'Servicio técnico de equpos médicos',
-      items:['Revisión y diagnóstico', 'Mantenimiento preventivo y correctivo'],
-      imageUrl:'../../../../assets/home-services/repair-medical.jpg'
+      title: 'Servicio técnico de equpos médicos',
+      items: ['Revisión y diagnóstico', 'Mantenimiento preventivo y correctivo'],
+      imageUrl: '../../../../assets/home-services/repair-medical.jpg'
     },
     {
-      title:'Metrología',
-      items:['Verificación, calibración y ajuste de equipos médicos con patrón certificado'],
-      imageUrl:'../../../../assets/home-services/metrology.jpg'
+      title: 'Metrología',
+      items: ['Verificación, calibración y ajuste de equipos médicos con patrón certificado'],
+      imageUrl: '../../../../assets/home-services/metrology.jpg'
     },
     {
-      title:'Suministro de equipos e insumos médicos',
-      items:['Equipos médicos, Odontologicos y ayudas de movilidad', 'Productos médico Quirúrgicos', 'Suministro de accesorios, partes y repuestos'],
-      imageUrl:'../../../../assets/home-services/supply-medical.jpg'
+      title: 'Suministro de equipos e insumos médicos',
+      items: ['Equipos médicos, Odontologicos y ayudas de movilidad', 'Productos médico Quirúrgicos', 'Suministro de accesorios, partes y repuestos'],
+      imageUrl: '../../../../assets/home-services/supply-medical.jpg'
     },
     {
       title: 'Asesorías y capacitación',
-      items:['Auditoría e implementación de sistemas de gestión de calidad ISO 9001', 'Resolución 1319 -Buenas prácticas de manufactura (BPM) para Órtesis y prótesis', 'Servicio de dirección técnica - INVIMA'],
+      items: ['Auditoría e implementación de sistemas de gestión de calidad ISO 9001', 'Resolución 1319 -Buenas prácticas de manufactura (BPM) para Órtesis y prótesis', 'Servicio de dirección técnica - INVIMA'],
       imageUrl: '../../../../assets/home-services/consulting.jpg'
     }
   ];
