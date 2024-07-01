@@ -1,0 +1,21 @@
+.google-form-container {
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+  }
+  
+  /* Estilos para hacer que el iframe del formulario sea responsivo */
+  .google-form-container iframe {
+    width: 100%;
+    height: 100vh; /* Altura del viewport */
+  }
+
+  .my-custom-column {
+    background-color: #f8f9fa; /* Color de fondo personalizado */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  .my-custom-column iframe {
+    width: 100%;
+   
+  }
